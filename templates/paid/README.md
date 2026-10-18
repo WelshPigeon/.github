@@ -102,7 +102,6 @@ Every setting is explained by a comment in `configuration/config.lua`. Server-on
 | `Config.Locale` | `'en'` | Language from `locales/` |
 | `Config.Framework` | `'auto'` | Detected automatically; set it if detection fails |
 | `Config.Debug` | `false` | Extra console output. Leave off on live servers |
-| `Config.CheckForUpdates` | `true` | Checks for a new version on start |
 | `Config.…` | | |
 
 ## Commands and permissions
@@ -141,7 +140,15 @@ Set `Config.Locale` to a file in `locales/`. To add a language, copy `locales/en
 
 ## Update checker
 
-On start, the resource checks our public version registry on GitHub and prints one line in the server console saying whether an update is available. It sends nothing about your server or players. Turn it off with `Config.CheckForUpdates = false`.
+When it starts, the resource checks our public version registry on GitHub and prints one line in the server console saying whether an update is available. The check is a single request to GitHub; it sends nothing about your server or players. You can change what it does in `server.cfg`:
+
+```cfg
+set pigeon_update_check "on"      # default: one short line
+set pigeon_update_check "quiet"   # only print when there's an update or a problem
+set pigeon_update_check "off"     # never check
+```
+
+This setting covers every Pigeon Studios resource on your server.
 
 ## Troubleshooting
 

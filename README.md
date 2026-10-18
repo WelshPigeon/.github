@@ -11,7 +11,7 @@
 
 ---
 
-**Version 2.5** · First published 2 February 2019 · Last updated 17 October 2026
+**Version 2.5.1** · First published 2 February 2019 · Last updated 18 October 2026
 
 This repository holds the master copy of every licence, policy and template used across Pigeon Studios projects: FiveM and RedM resources, Discord bots and services, website code, tools and libraries, whether they're free, paid or internal.
 
