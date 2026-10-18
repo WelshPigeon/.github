@@ -44,7 +44,7 @@ We use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/): `
 ## Pull requests and review
 
 - Open a pull request into `main` and fill in the template.
-- Every pull request is reviewed by the code owner (see `.github/CODEOWNERS`) before merging.
+- Every pull request (a merge request on GitLab) is reviewed by Pigeon Studios before merging.
 - Squash-merge, with a Conventional Commit title.
 - Add an entry under **Unreleased** in `CHANGELOG.md` for anything a customer would notice.
 - Don't bump the version in a feature pull request; that happens in the release step.
@@ -98,7 +98,7 @@ Before merging, on a development server:
 6. Build the release zip with `git archive` (which leaves out files marked `export-ignore`) and upload it to the Cfx.re Portal (Keymaster) as a new version of the asset.
 7. Download the escrowed build from the Portal and test it on a clean server.
 8. Update the Tebex package description and screenshots if anything visible changed.
-9. Update the resource's entry in the public version registry (`pigeon-resource-versions`) so buyers' update checkers see the new version.
+9. Update the resource's entry in the public version registry ([`pigeon-versions`](https://github.com/WelshPigeon/pigeon-versions), `resources/<slug>.json`, with `kind: paid` and the store link) so buyers' update checkers see the new version.
 10. Post the release notes in the Discord announcements channel.
 
 ## Support and hotfixes

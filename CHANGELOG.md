@@ -4,6 +4,14 @@ All notable changes to the Pigeon Studios repository standards are documented he
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [2.5.1] - 2026-10-18
+
+### Fixed
+
+- The free and paid README templates and the paid `CONTRIBUTING.md` named the retired `pigeon-resource-versions` registry. They now point to [`pigeon-versions`](https://github.com/WelshPigeon/pigeon-versions).
+- The README templates described a `Config.CheckForUpdates` setting that the update checker doesn't have. They now explain the `pigeon_update_check` server convar (`on`, `quiet` or `off`), which covers every Pigeon Studios resource.
+- The paid `CONTRIBUTING.md` pointed reviewers to `.github/CODEOWNERS`, which GitLab projects don't get. It now says Pigeon Studios reviews every pull or merge request.
+
 ## [2.5] - 2026-10-17
 
 The current set of standards, rewritten in full to match the legal pages on https://pigeonstudios.co.uk/legal/ and to cover every kind of project on GitHub and GitLab.
@@ -35,4 +43,5 @@ The current set of standards, rewritten in full to match the legal pages on http
 
 First published 2 February 2019.
 
+[2.5.1]: https://github.com/WelshPigeon/.github/tree/v2.5.1
 [2.5]: https://github.com/WelshPigeon/.github/tree/v2.5

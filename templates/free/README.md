@@ -117,7 +117,6 @@ All settings are in `configuration/config.lua`, and each one is explained by a c
 |---|---|---|
 | `Config.Locale` | `'en'` | Language file from `locales/` to use |
 | `Config.Debug` | `false` | Prints extra information to the console. Leave off on live servers |
-| `Config.CheckForUpdates` | `true` | Checks for a new version when the resource starts |
 | `Config.…` | | |
 
 <!-- Optional: server-only settings such as webhooks -->
@@ -171,7 +170,15 @@ Change `Config.Locale` to use another language from `locales/`. To add a languag
 
 ## Update checker
 
-When it starts, the resource checks our public [version registry](https://github.com/WelshPigeon/pigeon-resource-versions) and prints one line in the server console telling you whether you're up to date. The check is a single request to GitHub; it sends nothing about your server or players. Turn it off with `Config.CheckForUpdates = false`.
+When it starts, the resource checks our public [version registry](https://github.com/WelshPigeon/pigeon-versions) and prints one line in the server console saying whether an update is available. The check is a single request to GitHub; it sends nothing about your server or players. You can change what it does in `server.cfg`:
+
+```cfg
+set pigeon_update_check "on"      # default: one short line
+set pigeon_update_check "quiet"   # only print when there's an update or a problem
+set pigeon_update_check "off"     # never check
+```
+
+This setting covers every Pigeon Studios resource on your server.
 
 ## Performance
 
