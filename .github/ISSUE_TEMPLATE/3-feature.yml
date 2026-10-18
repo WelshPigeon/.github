@@ -1,0 +1,73 @@
+name: Feature request
+description: Suggest a new feature or an improvement to an existing one.
+title: "[Feature]: "
+labels: ["enhancement", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. We want our resources to stay focused and easy to configure, so we can't add everything, but we read every suggestion and we'll explain our decision.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you start
+      options:
+        - label: I've searched open and closed issues and this hasn't been suggested already.
+          required: true
+        - label: I've checked the README and settings, and this isn't already possible.
+          required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe what you're trying to do and what gets in the way. "As a server owner (or community manager, player, developer…), I want… so that…" works well.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like to happen?
+      description: Describe the feature as you imagine it, including any configuration options.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      description: Other ways of solving the problem, including other resources or workarounds.
+
+  - type: dropdown
+    id: who
+    attributes:
+      label: Who would benefit?
+      options:
+        - Server owners and staff
+        - Players
+        - Discord community members or staff
+        - Website visitors or customers
+        - Developers using exports, events or APIs
+        - Everyone
+    validations:
+      required: true
+
+  - type: dropdown
+    id: contribute
+    attributes:
+      label: Would you like to build it?
+      description: If yes, wait for a maintainer to agree the approach before you start. See CONTRIBUTING.md.
+      options:
+        - "No"
+        - "Yes, I'd like to open a pull request"
+        - Maybe, with some guidance
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Mock-ups, screenshots, or examples from other projects.

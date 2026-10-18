@@ -1,0 +1,152 @@
+name: "Bug report: FiveM or RedM resource"
+description: Something in one of our FiveM or RedM resources is broken or doesn't work as documented.
+title: "[Bug]: "
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please fill in every field; reports without enough detail to reproduce the problem may be closed.
+
+        - **Found an exploit?** Don't post it here. Follow the [Security Policy](https://github.com/WelshPigeon/.github/blob/main/SECURITY.md) instead.
+        - **Need help setting something up?** Ask in our [Discord](https://discord.gg/2NFVWEUmDF) instead. See [Getting Help](https://github.com/WelshPigeon/.github/blob/main/SUPPORT.md).
+        - **Reporting a bot, the website or other software?** Go back and choose the other bug form.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you start
+      options:
+        - label: I'm using the latest release of this resource, downloaded from the official repository or the Pigeon Studios website.
+          required: true
+        - label: I've searched open and closed issues and this hasn't been reported already.
+          required: true
+        - label: This isn't a security problem or exploit.
+          required: true
+
+  - type: input
+    id: resource-version
+    attributes:
+      label: Resource version
+      description: The `version` in `fxmanifest.lua`, or the version shown in the server console when the resource starts.
+      placeholder: "1.2.3"
+    validations:
+      required: true
+
+  - type: input
+    id: artifact
+    attributes:
+      label: FXServer artifact
+      description: The server build number, shown at the top of the server console and in txAdmin.
+      placeholder: "17000"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: framework
+    attributes:
+      label: Framework
+      options:
+        - Standalone (no framework)
+        - ESX Legacy
+        - QBCore
+        - Qbox
+        - ox_core
+        - Other (say which below)
+    validations:
+      required: true
+
+  - type: input
+    id: framework-version
+    attributes:
+      label: Framework and dependency versions
+      description: Versions of your framework and of any dependencies this resource uses, such as ox_lib, ox_inventory or oxmysql.
+      placeholder: "qbx_core 1.22.0, ox_lib 3.30.0, oxmysql 2.13.0"
+
+  - type: dropdown
+    id: game
+    attributes:
+      label: Game
+      options:
+        - FiveM (Legacy)
+        - FiveM (Enhanced)
+        - RedM
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The exact steps that make the problem happen, starting from a fresh server start.
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Sometimes
+        - Once, and I couldn't make it happen again
+    validations:
+      required: true
+
+  - type: dropdown
+    id: clean-server
+    attributes:
+      label: Does it happen on a clean test server?
+      description: A server running only this resource and its dependencies.
+      options:
+        - "Yes"
+        - "No, only on my main server"
+        - I haven't tested this
+    validations:
+      required: true
+
+  - type: textarea
+    id: server-log
+    attributes:
+      label: Server console output
+      description: Copy and paste any errors or warnings from the server console. Remove webhook URLs, keys, IP addresses and player identifiers first.
+      render: shell
+
+  - type: textarea
+    id: client-log
+    attributes:
+      label: Client F8 console output
+      description: Copy and paste any errors from the F8 console in game.
+      render: shell
+
+  - type: textarea
+    id: config
+    attributes:
+      label: Configuration changes
+      description: Any settings you've changed from the defaults, and any changes you've made to the code. Remove secrets first.
+      render: lua
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, clips, other resources that might be involved, or anything else that might help.

@@ -1,0 +1,38 @@
+name: Documentation problem
+description: Something in the README, configuration comments or other docs is wrong, missing or unclear.
+title: "[Docs]: "
+labels: ["documentation", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the docs. For a quick fix, such as a typo, you're welcome to open a pull request instead.
+
+  - type: input
+    id: location
+    attributes:
+      label: Where is it?
+      description: The file and section, or a link to the line.
+      placeholder: "README.md › Installation, or configuration/config.lua line 42"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What's wrong?
+      options:
+        - It's incorrect or out of date
+        - Something is missing
+        - It's unclear or hard to follow
+        - Typo or formatting
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Details
+      description: What it says now, what's wrong with it, and what it should say if you know.
+    validations:
+      required: true

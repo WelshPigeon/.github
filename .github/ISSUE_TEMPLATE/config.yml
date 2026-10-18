@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Help and support
+    url: https://discord.gg/2NFVWEUmDF
+    about: Questions about installing, configuring or using any of our resources, bots or tools. Ask in the support channels on our Discord.
+  - name: Report a security problem
+    url: https://github.com/WelshPigeon/.github/blob/main/SECURITY.md
+    about: Found a vulnerability or exploit? Don't open a public issue. Report it privately using the Security Policy.
+  - name: Orders, licences and refunds
+    url: https://pigeonstudios.co.uk/support/
+    about: Help with a purchase from the Pigeon Studios store. Have your order number ready.

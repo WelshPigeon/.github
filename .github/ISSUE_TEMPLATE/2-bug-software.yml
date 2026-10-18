@@ -1,0 +1,113 @@
+name: "Bug report: bot, website or other software"
+description: Something in one of our Discord bots, our website, a tool or any other project is broken or doesn't work as documented.
+title: "[Bug]: "
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please fill in every field; reports without enough detail to reproduce the problem may be closed.
+
+        - **Found a vulnerability?** Don't post it here. Follow the [Security Policy](https://github.com/WelshPigeon/.github/blob/main/SECURITY.md) instead.
+        - **Need help setting something up?** Ask in our [Discord](https://discord.gg/2NFVWEUmDF) instead. See [Getting Help](https://github.com/WelshPigeon/.github/blob/main/SUPPORT.md).
+        - **Reporting a FiveM or RedM resource?** Go back and choose the FiveM form.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you start
+      options:
+        - label: I'm using the latest release, downloaded from the official repository, the Pigeon Studios website or our store.
+          required: true
+        - label: I've searched open and closed issues and this hasn't been reported already.
+          required: true
+        - label: This isn't a security problem or vulnerability.
+          required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of project is it?
+      options:
+        - Discord bot (hosted by Pigeon Studios)
+        - Discord bot (self-hosted)
+        - Website or WordPress plugin/theme
+        - Tool or script
+        - Library or other software
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The version you're using, from the release, `package.json`, the bot's about or help command, or the logs.
+      placeholder: "1.2.3"
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Whatever applies, such as your operating system, Node.js version, PHP and WordPress versions, browser, or hosting provider.
+      placeholder: "Windows 11, Node.js 22.11.0 / Chrome 141 on Android"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The exact steps that make the problem happen, such as the command you ran with its options, or the page and buttons you clicked.
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Sometimes
+        - Once, and I couldn't make it happen again
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error messages or logs
+      description: Copy and paste any errors, from the console, logs or your browser's developer tools. Remove tokens, keys, webhook URLs, IP addresses and personal data first.
+      render: shell
+
+  - type: textarea
+    id: config
+    attributes:
+      label: Configuration changes
+      description: Any settings you've changed from the defaults, and any changes you've made to the code. Never paste your `.env` file or real secrets.
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, clips, links, or anything else that might help.
