@@ -6,6 +6,7 @@
     <a href="https://pigeonstudios.co.uk">Website</a> ·
     <a href="https://pigeon-studios.tebex.store">Store</a> ·
     <a href="https://discord.gg/2NFVWEUmDF">Discord</a> ·
+    <a href="https://github.com/orgs/pigeon-studios-uk/discussions">Discussions</a> ·
     <a href="https://github.com/pigeon-studios-uk/.github/blob/main/LEGAL.md">Legal</a>
   </p>
 </div>
@@ -28,9 +29,11 @@ Download from each repository's **Releases** page, not the green Code button. Re
 
 ### Getting help
 
-Read the resource's README first; most questions are answered in its Troubleshooting section. Then ask in the support channels of our [Discord](https://discord.gg/2NFVWEUmDF). See [Support](https://github.com/pigeon-studios-uk/.github/blob/main/SUPPORT.md) for what to include.
+Read the resource's README first; most questions are answered in its Troubleshooting section. Then ask in [Discussions](https://github.com/orgs/pigeon-studios-uk/discussions/categories/q-a) or the support channels of our [Discord](https://discord.gg/2NFVWEUmDF). See [Support](https://github.com/pigeon-studios-uk/.github/blob/main/SUPPORT.md) for what to include.
 
 - **Found a bug?** Open an issue in that resource's repository.
+- **Have an idea?** Post it in [Discussions → Ideas](https://github.com/orgs/pigeon-studios-uk/discussions/categories/ideas), or vote for one that's already there.
+- **News and releases** are posted in [Announcements](https://github.com/orgs/pigeon-studios-uk/discussions/categories/announcements).
 - **Found an exploit or vulnerability?** Don't post it publicly. Follow our [Security Policy](https://github.com/pigeon-studios-uk/.github/blob/main/SECURITY.md).
 - **Want to contribute?** Read [Contributing](https://github.com/pigeon-studios-uk/.github/blob/main/CONTRIBUTING.md) and our [Code of Conduct](https://github.com/pigeon-studios-uk/.github/blob/main/CODE_OF_CONDUCT.md).
 

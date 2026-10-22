@@ -11,7 +11,7 @@
 
 ---
 
-**Version 2.6.0** · First published 2 February 2019 · Last updated 22 October 2026
+**Version 2.7.0** · First published 2 February 2019 · Last updated 22 October 2026
 
 This repository holds the master copy of every licence, policy and template used across Pigeon Studios projects: FiveM and RedM resources, Discord bots and services, website code, tools and libraries, whether they're free, paid or internal.
 
@@ -47,6 +47,7 @@ These apply to every project, on both platforms, unless a repository has its own
 | [Issue forms](.github/ISSUE_TEMPLATE/) | Bug reports for FiveM/RedM resources and for other software, feature requests, documentation problems, and links to support |
 | [LEGAL.md](LEGAL.md) | Who we are, and an index of every legal page on the website: terms, refunds, licence, privacy, copyright and takedown, brand and the rest |
 | [Organisation profile](profile/README.md) | The public page at https://github.com/pigeon-studios-uk: free releases, support, policies and legal links |
+| [Discussion forms](.github/DISCUSSION_TEMPLATE/) | The Q&A and Ideas forms for [organisation Discussions](https://github.com/orgs/pigeon-studios-uk/discussions), which live in this repository |
 | [Pull request template](.github/pull_request_template.md) | What every pull request must include, with checklists for each project type |
 
 ## Licences
@@ -171,6 +172,7 @@ These documents were drafted to be consistent with our published legal pages, bu
 ├── profile/README.md             the organisation's public GitHub profile
 ├── .github/
 │   ├── ISSUE_TEMPLATE/           issue forms and contact links
+│   ├── DISCUSSION_TEMPLATE/      Q&A and Ideas forms for organisation Discussions
 │   └── pull_request_template.md
 ├── licences/
 │   ├── free/LICENSE.md           Pigeon Studios Free Licence

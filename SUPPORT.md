@@ -8,12 +8,13 @@ Need a hand with a Pigeon Studios project? This applies to all of them: FiveM an
 
 | Your question is about | Go to |
 |---|---|
-| Installing, configuring or using a resource, bot or tool | Our [Discord server](https://discord.gg/2NFVWEUmDF), in the support channels |
+| Installing, configuring or using one of our free resources or tools | [GitHub Discussions](https://github.com/orgs/pigeon-studios-uk/discussions/categories/q-a) (Q&A), or our [Discord server](https://discord.gg/2NFVWEUmDF) |
+| Installing, configuring or using a paid resource, bot or service | Our [Discord server](https://discord.gg/2NFVWEUmDF), in the support channels |
 | A paid product, order, download or licence | Email pigeon@pigeonstudios.co.uk with your order number, or open a ticket in our [Discord](https://discord.gg/2NFVWEUmDF) |
 | A refund or cancellation | See our [Refunds & Cancellations](https://pigeonstudios.co.uk/legal/refunds/) policy, then email us |
 | A hosted Discord bot or subscription | Open a ticket in our [Discord](https://discord.gg/2NFVWEUmDF) |
 | Something that's definitely broken | Open a **Bug report** issue in the project's repository |
-| An idea for a new feature | Open a **Feature request** issue in the project's repository |
+| An idea for a new feature | Post it in [Discussions → Ideas](https://github.com/orgs/pigeon-studios-uk/discussions/categories/ideas) so others can upvote it, or open a **Feature request** issue in the project's repository |
 | A security problem, vulnerability or exploit | **Don't post it publicly.** Follow our [Security Policy](SECURITY.md) |
 | A leaked or resold copy of our work | See our [Copyright & Takedown Policy](https://pigeonstudios.co.uk/legal/takedown/) |
 | Anything else | Our [support page](https://pigeonstudios.co.uk/support/) or pigeon@pigeonstudios.co.uk |

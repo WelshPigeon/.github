@@ -1,0 +1,66 @@
+title: "[Help]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask anything about installing, configuring or using one of our **free** resources or tools. Someone from Pigeon Studios or the community will reply, and when a reply solves it, mark it as the answer so it helps the next person.
+
+        - **Bought something from us?** Paid products are supported in our [Discord](https://discord.gg/2NFVWEUmDF): open a ticket with your order number.
+        - **Found an exploit or vulnerability?** Don't post it here. Follow the [Security Policy](https://github.com/pigeon-studios-uk/.github/blob/main/SECURITY.md).
+        - **Definitely a bug?** Open a bug report in that resource's repository instead.
+
+  - type: dropdown
+    id: resource
+    attributes:
+      label: Which resource or tool?
+      options:
+        - Pigeon Dice
+        - Pigeon Property Watch
+        - Pigeon Vehicle Access
+        - Monday to Discord
+        - Pigeon Versions (update checker)
+        - Something else
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The `version` in `fxmanifest.lua` (or `package.json`), or the version shown in the server console when it starts.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: setup
+    attributes:
+      label: Your setup
+      description: Framework and related resources, if any (for example Qbox, QBCore, ESX, ox_lib, NoLag Properties).
+      placeholder: "Qbox, ox_lib 3.x"
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What are you trying to do, what did you expect, and what happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Errors or logs
+      description: The first red error from the server console or F8 console, if there is one. Remove any passwords, tokens or webhook URLs first.
+      render: text
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you post
+      options:
+        - label: I've read the resource's README, including its Troubleshooting section.
+          required: true
+        - label: I've searched existing discussions for the same question.
+          required: true

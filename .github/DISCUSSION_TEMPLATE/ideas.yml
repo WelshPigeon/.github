@@ -1,0 +1,45 @@
+title: "[Idea]: "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for one of our free resources or tools? Tell us what it is and what problem it solves for your server. Upvote ideas you'd like to see; the most wanted ones are the first we look at.
+
+        We can't promise every idea gets built, and ideas for paid products are best shared in our [Discord](https://discord.gg/2NFVWEUmDF).
+
+  - type: dropdown
+    id: resource
+    attributes:
+      label: Which resource or tool?
+      options:
+        - Pigeon Dice
+        - Pigeon Property Watch
+        - Pigeon Vehicle Access
+        - Monday to Discord
+        - Pigeon Versions (update checker)
+        - A new resource
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What can't you do today, or what's harder than it should be?
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How would you like it to work? Config options, commands or screenshots from elsewhere all help.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Anything you've tried instead
+      description: Other resources or workarounds you've used, and why they don't quite do it.

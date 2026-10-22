@@ -4,6 +4,17 @@ All notable changes to the Pigeon Studios repository standards are documented he
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [2.7.0] - 2026-10-22
+
+### Added
+
+- [GitHub Discussions](https://github.com/orgs/pigeon-studios-uk/discussions) for the organisation, hosted in this repository: Announcements, General, Ideas, Polls, Q&A and Show and tell.
+- Q&A and Ideas forms (`.github/DISCUSSION_TEMPLATE/`) that ask for the resource, version and setup.
+
+### Changed
+
+- The issue chooser, `SUPPORT.md` and the organisation profile point questions about free resources to Discussions Q&A and ideas to Discussions Ideas. Paid products are still supported in Discord.
+
 ## [2.6.0] - 2026-10-22
 
 Free releases moved from the WelshPigeon GitHub account to the Pigeon Studios organisation, [pigeon-studios-uk](https://github.com/pigeon-studios-uk).
@@ -57,6 +68,7 @@ The current set of standards, rewritten in full to match the legal pages on http
 
 First published 2 February 2019.
 
+[2.7.0]: https://github.com/pigeon-studios-uk/.github/tree/v2.7.0
 [2.6.0]: https://github.com/pigeon-studios-uk/.github/tree/v2.6.0
 [2.5.1]: https://github.com/pigeon-studios-uk/.github/tree/v2.5.1
 [2.5]: https://github.com/pigeon-studios-uk/.github/tree/v2.5

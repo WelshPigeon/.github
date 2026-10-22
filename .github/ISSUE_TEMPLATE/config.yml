@@ -1,5 +1,11 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Ask a question about a free resource
+    url: https://github.com/orgs/pigeon-studios-uk/discussions/categories/q-a
+    about: Questions about installing, configuring or using our free resources and tools. Ask in Discussions, where the answer helps the next person too.
+  - name: Suggest an idea
+    url: https://github.com/orgs/pigeon-studios-uk/discussions/categories/ideas
+    about: Ideas for our free resources and tools. Post them in Discussions so others can upvote them.
   - name: Help and support
     url: https://discord.gg/2NFVWEUmDF
     about: Questions about installing, configuring or using any of our resources, bots or tools. Ask in the support channels on our Discord.
