@@ -87,7 +87,7 @@ We use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/): `
 
 ### Lua (if the project includes FiveM code)
 
-The [public contributing guide](https://github.com/WelshPigeon/.github/blob/main/CONTRIBUTING.md#coding-standards) applies: validate every server event, keep secrets server-side, parameterised queries only.
+The [public contributing guide](https://github.com/pigeon-studios-uk/.github/blob/main/CONTRIBUTING.md#coding-standards) applies: validate every server event, keep secrets server-side, parameterised queries only.
 
 ## Dependencies
 

@@ -4,11 +4,25 @@ All notable changes to the Pigeon Studios repository standards are documented he
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [2.6.0] - 2026-10-22
+
+Free releases moved from the WelshPigeon GitHub account to the Pigeon Studios organisation, [pigeon-studios-uk](https://github.com/pigeon-studios-uk).
+
+### Added
+
+- `profile/README.md`: the organisation's public profile, with our free releases, where to buy paid ones, support, policies and legal pages.
+- `LEGAL.md`: who we are and an index of every legal page on https://pigeonstudios.co.uk/legal/, so they're one click away from any repository.
+
+### Changed
+
+- Every GitHub link in the policies, issue forms, pull request template, licences and templates now points to the organisation. Old WelshPigeon links still redirect.
+- The Pigeon Studios Free Licence's "Official Repository" definition names the organisation, and still covers repositories published under the WelshPigeon account before the move.
+
 ## [2.5.1] - 2026-10-18
 
 ### Fixed
 
-- The free and paid README templates and the paid `CONTRIBUTING.md` named the retired `pigeon-resource-versions` registry. They now point to [`pigeon-versions`](https://github.com/WelshPigeon/pigeon-versions).
+- The free and paid README templates and the paid `CONTRIBUTING.md` named the retired `pigeon-resource-versions` registry. They now point to [`pigeon-versions`](https://github.com/pigeon-studios-uk/pigeon-versions).
 - The README templates described a `Config.CheckForUpdates` setting that the update checker doesn't have. They now explain the `pigeon_update_check` server convar (`on`, `quiet` or `off`), which covers every Pigeon Studios resource.
 - The paid `CONTRIBUTING.md` pointed reviewers to `.github/CODEOWNERS`, which GitLab projects don't get. It now says Pigeon Studios reviews every pull or merge request.
 
@@ -43,5 +57,6 @@ The current set of standards, rewritten in full to match the legal pages on http
 
 First published 2 February 2019.
 
-[2.5.1]: https://github.com/WelshPigeon/.github/tree/v2.5.1
-[2.5]: https://github.com/WelshPigeon/.github/tree/v2.5
+[2.6.0]: https://github.com/pigeon-studios-uk/.github/tree/v2.6.0
+[2.5.1]: https://github.com/pigeon-studios-uk/.github/tree/v2.5.1
+[2.5]: https://github.com/pigeon-studios-uk/.github/tree/v2.5

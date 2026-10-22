@@ -62,7 +62,7 @@ We use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/): `
 
 ## Coding standards
 
-The public [contributing guide](https://github.com/WelshPigeon/.github/blob/main/CONTRIBUTING.md#coding-standards) sets out our Lua, JavaScript, security, configuration, locale, database and NUI standards. They apply here too. In particular:
+The public [contributing guide](https://github.com/pigeon-studios-uk/.github/blob/main/CONTRIBUTING.md#coding-standards) sets out our Lua, JavaScript, security, configuration, locale, database and NUI standards. They apply here too. In particular:
 
 - never trust the client: validate every server event;
 - keep secrets server-side;
@@ -98,14 +98,14 @@ Before merging, on a development server:
 6. Build the release zip with `git archive` (which leaves out files marked `export-ignore`) and upload it to the Cfx.re Portal (Keymaster) as a new version of the asset.
 7. Download the escrowed build from the Portal and test it on a clean server.
 8. Update the Tebex package description and screenshots if anything visible changed.
-9. Update the resource's entry in the public version registry ([`pigeon-versions`](https://github.com/WelshPigeon/pigeon-versions), `resources/<slug>.json`, with `kind: paid` and the store link) so buyers' update checkers see the new version.
+9. Update the resource's entry in the public version registry ([`pigeon-versions`](https://github.com/pigeon-studios-uk/pigeon-versions), `resources/<slug>.json`, with `kind: paid` and the store link) so buyers' update checkers see the new version.
 10. Post the release notes in the Discord announcements channel.
 
 ## Support and hotfixes
 
 - Bugs reported by buyers are tracked as issues in this repository, with the order number recorded in the ticket, not in the issue.
 - A fix for a problem stopping buyers from using the resource is released as a patch as soon as it's tested, through a `hotfix/` branch.
-- Security fixes follow the [Security Policy](https://github.com/WelshPigeon/.github/blob/main/SECURITY.md) timelines.
+- Security fixes follow the [Security Policy](https://github.com/pigeon-studios-uk/.github/blob/main/SECURITY.md) timelines.
 
 ## Ownership of your work
 

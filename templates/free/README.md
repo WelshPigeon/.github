@@ -13,14 +13,14 @@ Placeholders: {{RESOURCE_NAME}} display name · {{RESOURCE_FOLDER}} folder/resou
   <p><strong>{{SHORT_DESCRIPTION}}</strong></p>
 
   <p>
-    <a href="https://github.com/WelshPigeon/{{REPO}}/releases/latest"><img src="https://img.shields.io/github/v/release/WelshPigeon/{{REPO}}?label=release&color=2ea043" alt="Latest release" /></a>
+    <a href="https://github.com/pigeon-studios-uk/{{REPO}}/releases/latest"><img src="https://img.shields.io/github/v/release/pigeon-studios-uk/{{REPO}}?label=release&color=2ea043" alt="Latest release" /></a>
     <a href="LICENSE.md"><img src="https://img.shields.io/badge/licence-Pigeon%20Studios%20Free-6f42c1" alt="Licence: Pigeon Studios Free Licence" /></a>
     <a href="https://discord.gg/2NFVWEUmDF"><img src="https://img.shields.io/badge/support-Discord-5865F2?logo=discord&logoColor=white" alt="Discord support" /></a>
     <img src="https://img.shields.io/badge/FiveM-resource-F40552" alt="FiveM resource" />
   </p>
 
   <p>
-    <a href="https://github.com/WelshPigeon/{{REPO}}/releases/latest"><strong>Download</strong></a> ·
+    <a href="https://github.com/pigeon-studios-uk/{{REPO}}/releases/latest"><strong>Download</strong></a> ·
     <a href="#installation">Install</a> ·
     <a href="#configuration">Configure</a> ·
     <a href="CHANGELOG.md">Changelog</a> ·
@@ -88,7 +88,7 @@ Placeholders: {{RESOURCE_NAME}} display name · {{RESOURCE_FOLDER}} folder/resou
 
 ## Installation
 
-1. **Download** the latest `{{RESOURCE_FOLDER}}.zip` from [Releases](https://github.com/WelshPigeon/{{REPO}}/releases/latest). Don't use the green **Code** button; release zips are the tested builds.
+1. **Download** the latest `{{RESOURCE_FOLDER}}.zip` from [Releases](https://github.com/pigeon-studios-uk/{{REPO}}/releases/latest). Don't use the green **Code** button; release zips are the tested builds.
 2. **Extract** it into your server's `resources` folder. The folder must be named `{{RESOURCE_FOLDER}}` exactly.
 3. **Database** (if the resource has an `sql/` folder): import `sql/install.sql` into your server's database.
 4. **Start it** by adding this to `server.cfg`, **after** its dependencies and your framework:
@@ -170,7 +170,7 @@ Change `Config.Locale` to use another language from `locales/`. To add a languag
 
 ## Update checker
 
-When it starts, the resource checks our public [version registry](https://github.com/WelshPigeon/pigeon-versions) and prints one line in the server console saying whether an update is available. The check is a single request to GitHub; it sends nothing about your server or players. You can change what it does in `server.cfg`:
+When it starts, the resource checks our public [version registry](https://github.com/pigeon-studios-uk/pigeon-versions) and prints one line in the server console saying whether an update is available. The check is a single request to GitHub; it sends nothing about your server or players. You can change what it does in `server.cfg`:
 
 ```cfg
 set pigeon_update_check "on"      # default: one short line
@@ -215,17 +215,17 @@ See [Requirements](#requirements). If yours isn't listed, it may still work stan
 
 ## Support
 
-Read [Troubleshooting](#troubleshooting) first, then ask in the support channels of our [Discord](https://discord.gg/2NFVWEUmDF). Please include your resource version, framework and the full error. See [Getting help](https://github.com/WelshPigeon/.github/blob/main/SUPPORT.md) for more.
+Read [Troubleshooting](#troubleshooting) first, then ask in the support channels of our [Discord](https://discord.gg/2NFVWEUmDF). Please include your resource version, framework and the full error. See [Getting help](https://github.com/pigeon-studios-uk/.github/blob/main/SUPPORT.md) for more.
 
-Found a bug? Open a [bug report](https://github.com/WelshPigeon/{{REPO}}/issues/new/choose).
+Found a bug? Open a [bug report](https://github.com/pigeon-studios-uk/{{REPO}}/issues/new/choose).
 
 ## Contributing
 
-Fixes, improvements and translations are welcome. Please read the [contributing guide](https://github.com/WelshPigeon/.github/blob/main/CONTRIBUTING.md) before you start, and open a feature request before working on anything big.
+Fixes, improvements and translations are welcome. Please read the [contributing guide](https://github.com/pigeon-studios-uk/.github/blob/main/CONTRIBUTING.md) before you start, and open a feature request before working on anything big.
 
 ## Security
 
-Please don't report exploits in public issues. Use the **Report a vulnerability** button in this repository's **Security** tab, or follow our [Security Policy](https://github.com/WelshPigeon/.github/blob/main/SECURITY.md).
+Please don't report exploits in public issues. Use the **Report a vulnerability** button in this repository's **Security** tab, or follow our [Security Policy](https://github.com/pigeon-studios-uk/.github/blob/main/SECURITY.md).
 
 ## Licence
 

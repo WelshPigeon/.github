@@ -49,7 +49,7 @@ Delete any section or checklist group that doesn't apply to this project.
 
 **Every project**
 
-- [ ] I've read [CONTRIBUTING.md](https://github.com/WelshPigeon/.github/blob/main/CONTRIBUTING.md) and followed the standards for this kind of project.
+- [ ] I've read [CONTRIBUTING.md](https://github.com/pigeon-studios-uk/.github/blob/main/CONTRIBUTING.md) and followed the standards for this kind of project.
 - [ ] I tested this in a development or test environment, not a live one.
 - [ ] There are no new errors or warnings in the console, logs or browser developer tools.
 - [ ] Everything that comes from users or players is validated, and anything shown back to them is escaped.

@@ -1,0 +1,41 @@
+<div align="center">
+  <img src="https://github.com/pigeon-studios-uk.png?size=200" alt="Pigeon Studios" width="120" />
+  <h1>Pigeon Studios</h1>
+  <p><strong>FiveM resources, tools and design for serious roleplay.</strong></p>
+  <p>
+    <a href="https://pigeonstudios.co.uk">Website</a> ·
+    <a href="https://pigeon-studios.tebex.store">Store</a> ·
+    <a href="https://discord.gg/2NFVWEUmDF">Discord</a> ·
+    <a href="https://github.com/pigeon-studios-uk/.github/blob/main/LEGAL.md">Legal</a>
+  </p>
+</div>
+
+---
+
+We build scripts, models and tools for FiveM roleplay servers, from small free utilities to full systems. Everything here is **free**, under the [Pigeon Studios Free Licence](https://github.com/pigeon-studios-uk/.github/blob/main/licences/free/LICENSE.md). Our paid resources are on [our store](https://pigeon-studios.tebex.store), and are added to your Cfx.re account the moment you buy.
+
+### Free releases
+
+| | |
+|---|---|
+| [**Pigeon Dice**](https://github.com/pigeon-studios-uk/pigeon-dice) | Roleplay dice for FiveM: anything from a d20 to `2d6+3`, advantage, Fate dice, coins and ranges, shown in chat and above your head |
+| [**Pigeon Property Watch**](https://github.com/pigeon-studios-uk/pigeon-property-watch) | Finds properties nobody has used for weeks and reports them to Discord, for NoLag Properties and Qbox properties |
+| [**Pigeon Vehicle Access**](https://github.com/pigeon-studios-uk/pigeon-vehicle-access) | Decide who can drive which vehicles, by job, grade, gang, ACE permission or whitelist, for Qbox and QBCore |
+| [**Monday to Discord**](https://github.com/pigeon-studios-uk/monday-to-discord) | Posts monday.com board activity to Discord, routed by rules |
+| [**Pigeon Versions**](https://github.com/pigeon-studios-uk/pigeon-versions) | The version registry and update checker every Pigeon Studios resource uses |
+
+Download from each repository's **Releases** page, not the green Code button. Releases are the tested, ready-to-install builds.
+
+### Getting help
+
+Read the resource's README first; most questions are answered in its Troubleshooting section. Then ask in the support channels of our [Discord](https://discord.gg/2NFVWEUmDF). See [Support](https://github.com/pigeon-studios-uk/.github/blob/main/SUPPORT.md) for what to include.
+
+- **Found a bug?** Open an issue in that resource's repository.
+- **Found an exploit or vulnerability?** Don't post it publicly. Follow our [Security Policy](https://github.com/pigeon-studios-uk/.github/blob/main/SECURITY.md).
+- **Want to contribute?** Read [Contributing](https://github.com/pigeon-studios-uk/.github/blob/main/CONTRIBUTING.md) and our [Code of Conduct](https://github.com/pigeon-studios-uk/.github/blob/main/CODE_OF_CONDUCT.md).
+
+### Legal
+
+Pigeon Studios is the trading name of a sole trader based in England. Our terms are governed by the law of England and Wales. Every policy, licence and legal page is listed in [LEGAL.md](https://github.com/pigeon-studios-uk/.github/blob/main/LEGAL.md), including our [Terms of Sale](https://pigeonstudios.co.uk/legal/terms/), [Privacy Policy](https://pigeonstudios.co.uk/legal/privacy/), [Copyright & Takedown Policy](https://pigeonstudios.co.uk/legal/takedown/) and [Brand Guidelines](https://pigeonstudios.co.uk/legal/brand/).
+
+<sub>Pigeon Studios resources are mods for GTA V and FiveM. We're not affiliated with or endorsed by Rockstar Games, Take-Two Interactive or Cfx.re.</sub>

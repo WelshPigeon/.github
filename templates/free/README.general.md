@@ -12,13 +12,13 @@ Replace every placeholder in double curly braces, delete sections that don't app
   <p><strong>{{SHORT_DESCRIPTION}}</strong></p>
 
   <p>
-    <a href="https://github.com/WelshPigeon/{{REPO}}/releases/latest"><img src="https://img.shields.io/github/v/release/WelshPigeon/{{REPO}}?label=release&color=2ea043" alt="Latest release" /></a>
+    <a href="https://github.com/pigeon-studios-uk/{{REPO}}/releases/latest"><img src="https://img.shields.io/github/v/release/pigeon-studios-uk/{{REPO}}?label=release&color=2ea043" alt="Latest release" /></a>
     <a href="LICENSE.md"><img src="https://img.shields.io/badge/licence-Pigeon%20Studios%20Free-6f42c1" alt="Licence: Pigeon Studios Free Licence" /></a>
     <a href="https://discord.gg/2NFVWEUmDF"><img src="https://img.shields.io/badge/support-Discord-5865F2?logo=discord&logoColor=white" alt="Discord support" /></a>
   </p>
 
   <p>
-    <a href="https://github.com/WelshPigeon/{{REPO}}/releases/latest"><strong>Download</strong></a> ·
+    <a href="https://github.com/pigeon-studios-uk/{{REPO}}/releases/latest"><strong>Download</strong></a> ·
     <a href="#getting-started">Get started</a> ·
     <a href="#configuration">Configure</a> ·
     <a href="CHANGELOG.md">Changelog</a> ·
@@ -68,10 +68,10 @@ Replace every placeholder in double curly braces, delete sections that don't app
 
 ## Getting started
 
-1. **Download** the latest release from [Releases](https://github.com/WelshPigeon/{{REPO}}/releases/latest), or clone the repository:
+1. **Download** the latest release from [Releases](https://github.com/pigeon-studios-uk/{{REPO}}/releases/latest), or clone the repository:
 
    ```bash
-   git clone https://github.com/WelshPigeon/{{REPO}}.git
+   git clone https://github.com/pigeon-studios-uk/{{REPO}}.git
    cd {{REPO}}
    ```
 
@@ -143,17 +143,17 @@ Yes, for your own use. If you've fixed or improved something, please send it bac
 
 ## Support
 
-Read [Troubleshooting](#troubleshooting) first, then ask in the support channels of our [Discord](https://discord.gg/2NFVWEUmDF). See [Getting help](https://github.com/WelshPigeon/.github/blob/main/SUPPORT.md) for more.
+Read [Troubleshooting](#troubleshooting) first, then ask in the support channels of our [Discord](https://discord.gg/2NFVWEUmDF). See [Getting help](https://github.com/pigeon-studios-uk/.github/blob/main/SUPPORT.md) for more.
 
-Found a bug? Open a [bug report](https://github.com/WelshPigeon/{{REPO}}/issues/new/choose).
+Found a bug? Open a [bug report](https://github.com/pigeon-studios-uk/{{REPO}}/issues/new/choose).
 
 ## Contributing
 
-Fixes, improvements and translations are welcome. Please read the [contributing guide](https://github.com/WelshPigeon/.github/blob/main/CONTRIBUTING.md) before you start, and open a feature request before working on anything big.
+Fixes, improvements and translations are welcome. Please read the [contributing guide](https://github.com/pigeon-studios-uk/.github/blob/main/CONTRIBUTING.md) before you start, and open a feature request before working on anything big.
 
 ## Security
 
-Please don't report vulnerabilities in public issues. Use the **Report a vulnerability** button in this repository's **Security** tab, or follow our [Security Policy](https://github.com/WelshPigeon/.github/blob/main/SECURITY.md).
+Please don't report vulnerabilities in public issues. Use the **Report a vulnerability** button in this repository's **Security** tab, or follow our [Security Policy](https://github.com/pigeon-studios-uk/.github/blob/main/SECURITY.md).
 
 ## Licence
 

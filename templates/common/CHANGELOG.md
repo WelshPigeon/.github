@@ -65,5 +65,5 @@ Example of a full release entry:
 - Fixed a server event that didn't check the player's job. All servers should update.
 -->
 
-[Unreleased]: https://github.com/WelshPigeon/{{REPO}}/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/WelshPigeon/{{REPO}}/releases/tag/v1.0.0
+[Unreleased]: https://github.com/pigeon-studios-uk/{{REPO}}/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/pigeon-studios-uk/{{REPO}}/releases/tag/v1.0.0

@@ -8,7 +8,7 @@
     you pass. Existing files are never overwritten unless you use -Force.
 
     Free repositories on GitHub don't get CONTRIBUTING, SECURITY, SUPPORT, CODE_OF_CONDUCT, issue forms or a
-    PR template, because GitHub supplies those from the WelshPigeon/.github repository. On GitLab there are no
+    PR template, because GitHub supplies those from the pigeon-studios-uk/.github repository (the organisation defaults). On GitLab there are no
     shared defaults on the Free plan, so -Platform GitLab copies those policies and the .gitlab templates too.
 
 .PARAMETER Path

@@ -8,8 +8,8 @@ body:
       value: |
         Thanks for taking the time to report a bug. Please fill in every field; reports without enough detail to reproduce the problem may be closed.
 
-        - **Found an exploit?** Don't post it here. Follow the [Security Policy](https://github.com/WelshPigeon/.github/blob/main/SECURITY.md) instead.
-        - **Need help setting something up?** Ask in our [Discord](https://discord.gg/2NFVWEUmDF) instead. See [Getting Help](https://github.com/WelshPigeon/.github/blob/main/SUPPORT.md).
+        - **Found an exploit?** Don't post it here. Follow the [Security Policy](https://github.com/pigeon-studios-uk/.github/blob/main/SECURITY.md) instead.
+        - **Need help setting something up?** Ask in our [Discord](https://discord.gg/2NFVWEUmDF) instead. See [Getting Help](https://github.com/pigeon-studios-uk/.github/blob/main/SUPPORT.md).
         - **Reporting a bot, the website or other software?** Go back and choose the other bug form.
 
   - type: checkboxes

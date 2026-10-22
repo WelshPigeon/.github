@@ -11,11 +11,11 @@
 
 ---
 
-**Version 2.5.1** · First published 2 February 2019 · Last updated 18 October 2026
+**Version 2.6.0** · First published 2 February 2019 · Last updated 22 October 2026
 
 This repository holds the master copy of every licence, policy and template used across Pigeon Studios projects: FiveM and RedM resources, Discord bots and services, website code, tools and libraries, whether they're free, paid or internal.
 
-- On **GitHub** it's the special `WelshPigeon/.github` repository. GitHub automatically shows its policies and issue and pull request templates on every repository owned by WelshPigeon that doesn't have its own.
+- On **GitHub** it's the special `pigeon-studios-uk/.github` repository of the [Pigeon Studios organisation](https://github.com/pigeon-studios-uk). GitHub automatically shows its policies and issue and pull request templates on every repository in the organisation that doesn't have its own, and `profile/README.md` is the organisation's public profile page.
 - On **GitLab** it's `pigeon-studios/repo-standards`, the same content. GitLab's Free plan doesn't share templates across a group, so files are copied into each project with the setup script.
 
 Everything here is written to match the legal pages at https://pigeonstudios.co.uk/legal/. Pigeon Studios is the trading name of a **sole trader** based in England, our terms are governed by the law of **England and Wales**, and the contact address is **pigeon@pigeonstudios.co.uk**.
@@ -45,6 +45,8 @@ These apply to every project, on both platforms, unless a repository has its own
 | [SUPPORT.md](SUPPORT.md) | Where to get help, what to check first and what to include |
 | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | How everyone is expected to behave, how to report problems and how we enforce it |
 | [Issue forms](.github/ISSUE_TEMPLATE/) | Bug reports for FiveM/RedM resources and for other software, feature requests, documentation problems, and links to support |
+| [LEGAL.md](LEGAL.md) | Who we are, and an index of every legal page on the website: terms, refunds, licence, privacy, copyright and takedown, brand and the rest |
+| [Organisation profile](profile/README.md) | The public page at https://github.com/pigeon-studios-uk: free releases, support, policies and legal links |
 | [Pull request template](.github/pull_request_template.md) | What every pull request must include, with checklists for each project type |
 
 ## Licences
@@ -111,7 +113,7 @@ Run `Get-Help .\tools\New-PigeonRepo.ps1 -Full` for every option. Afterwards:
 
 ## How GitHub defaults work
 
-GitHub uses the files in this **public** repository for every repository on the WelshPigeon account, **public and private**, that doesn't have its own copy of that file. That covers `CONTRIBUTING.md`, `SECURITY.md`, `SUPPORT.md`, `CODE_OF_CONDUCT.md`, the issue forms and the pull request template.
+GitHub uses the files in this **public** repository for every repository in the pigeon-studios-uk organisation, **public and private**, that doesn't have its own copy of that file. That covers `CONTRIBUTING.md`, `SECURITY.md`, `SUPPORT.md`, `CODE_OF_CONDUCT.md`, the issue forms and the pull request template.
 
 - This repository must stay **public**, or the defaults stop working.
 - Paid and internal repositories override `CONTRIBUTING.md` and the pull request template with their private versions.
@@ -162,9 +164,11 @@ These documents were drafted to be consistent with our published legal pages, bu
 ├── CHANGELOG.md                  changes to these standards
 ├── LICENSE.md                    licence for this repository
 ├── CONTRIBUTING.md               ┐
-├── SECURITY.md                   │ policies: shown on every WelshPigeon repository
+├── SECURITY.md                   │ policies: shown on every repository in the organisation
 ├── SUPPORT.md                    │ that doesn't have its own
 ├── CODE_OF_CONDUCT.md            ┘
+├── LEGAL.md                      index of our legal pages, with who we are
+├── profile/README.md             the organisation's public GitHub profile
 ├── .github/
 │   ├── ISSUE_TEMPLATE/           issue forms and contact links
 │   └── pull_request_template.md
